@@ -7,10 +7,9 @@ header{
 
 nav li{
 	display: inline-block;
-	background-color: #b2a215;
 	text-decoration: none;
-	padding: 1em .5em .5em .5em;
-	border-radius: 4px;
+	
+	
 
 
 }
@@ -19,7 +18,7 @@ h1,h2,h3{
 	font-family: 'Sigmar One', cursive;
 	color: #cc3865;
 	margin: 0;
-	text-align: center;
+
 }
 
 .berries{
@@ -27,18 +26,22 @@ h1,h2,h3{
 }
 
 
-
+.nutrition{
+	font-size: 1em
+}
 
 a:hover{
 	background-color: #cc3865;
-	padding: 1em .5em .5em 1em;
-	border-radius: 4px;
+
 
 }
 
 nav a{
 	text-decoration: none;
 	color: white;
+	background-color: #b2a215;
+	border-radius: 4px;
+	padding: 1em .5em .5em .5em;
 }
 
 figure img{
