@@ -8,4 +8,12 @@ header{
 nav li{
 	display: inline-block;
 	border-radius: 5px;
+	list-style: none;
+	
+}
+
+figure img{
+	border: 2px;
+	border-radius: 5px;
+	width: 50;
 }
