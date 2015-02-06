@@ -1,5 +1,5 @@
 header{
-	background-color: yellow;
+	background-color: #ffe524;
 	text-align: center;
 	padding: 1em 1em 1em 1em;
 
@@ -7,9 +7,26 @@ header{
 
 nav li{
 	display: inline-block;
-	border-radius: 5px;
-	list-style: none;
-	
+	background-color: #b2a215;
+	text-decoration: none;
+	padding: 1em .5em .5em .5em;
+	border-radius: 4px;
+
+
+}
+
+h1,h2,h3{
+	font-family: 'Sigmar One';
+}
+
+a:hover{
+	background-color: #cc3865;
+
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
 }
 
 figure img{
@@ -17,3 +34,4 @@ figure img{
 	border-radius: 5px;
 	width: 50;
 }
+
