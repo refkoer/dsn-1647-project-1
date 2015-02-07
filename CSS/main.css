@@ -1,21 +1,36 @@
 header{
 	background-color: #ffe524;
 	text-align: center;
-	padding: 1em 1em 1em 1em;
+	padding-bottom: 0.5em;
+
 
 }
 
 nav li{
 	display: inline-block;
 	text-decoration: none;
+	margin: 0;
+	padding: 0.25em 0em 0.25em 0em;
+	font-size: 14pt;
 
 
 }
 
 nav ul{
 	margin: 0;
+	padding: 0em
 	
 
+}
+
+
+nav a{
+	text-decoration: none;
+	color: white;
+	background-color: #b2a215;
+	border-radius: 4px;
+	padding: .5em .5em .5em .5em;
+	display: inline-block;
 }
 
 h1,h2, h3{
@@ -62,16 +77,6 @@ a:hover{
 	margin: 0;
 }
 
-
-nav a{
-	text-decoration: none;
-	color: white;
-	background-color: #b2a215;
-	border-radius: 4px;
-	padding: 1em .5em .5em .5em;
-	display: inline-block;
-}
-
 .imgnfig{
 	border: 2px solid;
 	border-radius: 5px;
@@ -114,7 +119,7 @@ dd{
 }
 
 /*
-
+reminder 4 me
 border
 3 elements
 size usually px
