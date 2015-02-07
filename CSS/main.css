@@ -8,9 +8,13 @@ header{
 nav li{
 	display: inline-block;
 	text-decoration: none;
-	
-	
 
+
+}
+
+nav ul{
+	margin: 0;
+	
 
 }
 
@@ -19,6 +23,11 @@ h1,h2,h3{
 	color: #cc3865;
 	margin: 0;
 
+}
+
+h2{
+	border-top: solid #ffe524;
+	padding-top: 1em;
 }
 
 .berries{
@@ -33,8 +42,24 @@ h1,h2,h3{
 a:hover{
 	background-color: #cc3865;
 
+}
+
+.quote{
+	color: #b2a215;
+	font-style: italic;
+	font-size: 15pt;
+	text-align: center;
+	margin-bottom: 2;
+
 
 }
+
+.apos{
+	text-align: center;
+	font-size: 3em;
+	margin: 0;
+}
+
 
 nav a{
 	text-decoration: none;
@@ -42,11 +67,39 @@ nav a{
 	background-color: #b2a215;
 	border-radius: 4px;
 	padding: 1em .5em .5em .5em;
+	display: inline-block;
 }
 
 figure img{
-	border: 2px;
+	border: 2px solid;
 	border-radius: 5px;
-	width: 50;
+	width: 100%;
 }
 
+aside{
+	background-color: #ffe524;
+	padding: 1em 1em 1em 1em;
+	text-align: center;
+}
+
+dl,p{
+	font-size: 13pt;
+}
+
+dl dt{
+	font-weight: bold;
+}
+
+dd{
+	text-align: left;
+}
+
+/*
+
+border
+3 elements
+size usually px
+type of line  solid or dotted.
+color
+background color 4 it
+*/
