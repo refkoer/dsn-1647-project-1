@@ -70,10 +70,23 @@ nav a{
 	display: inline-block;
 }
 
-figure img{
+.imgnfig{
 	border: 2px solid;
 	border-radius: 5px;
 	width: 100%;
+	color: #b2a215;
+	background-color: #fffce0;
+	text-align: center;
+	margin: 0;
+}
+
+figure img{
+	width: 100%;
+}
+
+figure figcaption{
+	color: black;
+	font-style: italic;
 }
 
 aside{
