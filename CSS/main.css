@@ -10,9 +10,9 @@ nav li{
 	display: inline-block;
 	text-decoration: none;
 	margin: 0;
-	padding: 0.25em 0em 0.25em 0em;
-	font-size: 14pt;
-
+	padding: 0em 0em 0.25em 0em;
+	font-size: 17pt;
+	font-family: 'Amatic SC', cursive;
 
 }
 
@@ -34,7 +34,7 @@ nav a{
 }
 
 h1,h2, h3{
-	font-family: 'Sigmar One', cursive;
+	font-family: 'Amatic SC', cursive;
 	color: #cc3865;
 	margin: 0;
 
@@ -48,7 +48,7 @@ h2{
 }
 
 .berries{
-	font-size: 3em
+	font-size: 7em
 }
 
 
@@ -75,12 +75,12 @@ a:hover{
 	text-align: center;
 	font-size: 3em;
 	margin: 0;
+	font-style: italic;
 }
 
 .imgnfig{
 	border: 2px solid;
 	border-radius: 5px;
-	width: 100%;
 	color: #b2a215;
 	background-color: #fffce0;
 	text-align: center;
@@ -88,12 +88,14 @@ a:hover{
 }
 
 figure img{
-	width: 100%;
+	width: 95%;
+	padding: 1em .5em .5em .5em;
 }
 
 figure figcaption{
 	color: black;
 	font-style: italic;
+	padding-bottom: .5em;
 }
 
 aside{
@@ -119,7 +121,7 @@ dd{
 }
 
 p{
-	line-height: 1em;
+	line-height: 1.3em;
 }
 
 /*
