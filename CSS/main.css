@@ -2,8 +2,6 @@ header{
 	background-color: #ffe524;
 	text-align: center;
 	padding-bottom: 0.5em;
-
-
 }
 
 nav li{
@@ -12,15 +10,12 @@ nav li{
 	margin: 0;
 	padding: 0em 0em 0.25em 0em;
 	font-size: 17pt;
-	font-family: 'Amatic SC', cursive;
-
+	font-family: 'Sigmar One', cursive;
 }
 
 nav ul{
 	margin: 0;
 	padding: 0em
-	
-
 }
 
 
@@ -34,10 +29,10 @@ nav a{
 }
 
 h1,h2, h3{
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Sigmar One', cursive;
 	color: #cc3865;
 	margin: 0;
-
+	font-weight: bold;
 }
 
 
@@ -55,11 +50,11 @@ h2{
 .nutrition{
 	font-size: 15pt;
 	margin-top: 1em;
+	padding-bottom: 1em;
 }
 
 a:hover{
 	background-color: #cc3865;
-
 }
 
 .quote{
@@ -68,7 +63,6 @@ a:hover{
 	font-size: 15pt;
 	text-align: center;
 	margin-bottom: 2;
-
 }
 
 .apos{
