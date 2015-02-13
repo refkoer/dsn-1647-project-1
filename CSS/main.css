@@ -118,6 +118,11 @@ p{
 	line-height: 1.3em;
 }
 
+dd{
+	padding: 0;
+	margin: 0;
+}
+
 /*
 reminder 4 me
 border
